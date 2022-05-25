@@ -12,7 +12,7 @@ function ContentFooter() {
 
   const activeFilter = useSelector((state) => state.todos.activeFilter);
   const dispatch = useDispatch()
-  console.log(itemsLeft)
+  // console.log(itemsLeft)
   return (
     <footer className="footer">
       <span className="todo-count">
