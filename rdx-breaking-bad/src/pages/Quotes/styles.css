@@ -1,0 +1,14 @@
+.quote_item {
+    padding: 10px 0;
+    text-align: left;
+}
+
+.author {
+    color: rgb(228, 50, 19);
+}
+
+.quotes_info {
+    padding: 30px;
+    text-align: center;
+    color:white;
+}

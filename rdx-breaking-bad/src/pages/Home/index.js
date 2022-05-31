@@ -12,7 +12,7 @@ function Home() {
   const nextPage = useSelector((state) => state.characters.page);
   const hasNextPage = useSelector((state) => state.characters.hasNextPage);
   const status = useSelector((state) => state.characters.status);
-  const error = useSelector((state) => state.characters.error);
+  // const error = useSelector((state) => state.characters.error);
   const dispatch = useDispatch();
 
   useEffect(() => {

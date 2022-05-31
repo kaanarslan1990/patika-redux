@@ -84,12 +84,24 @@ a:hover {
   justify-content: space-between;
   padding: 1rem 1rem 1.5rem 1rem;
 }
+nav {
+  background-color: #5d718a;
+  opacity:0.9;
+  margin-bottom:1rem;
+}
 
 ul,
 li {
   list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
   text-align: left;
-  margin-top: 0.2rem;
+  padding: 1rem;
+  margin: 0.5rem 0 0.5rem 0;
+
+}
+a:hover {
+  color: #32cee2;
 }
 
 hr {
