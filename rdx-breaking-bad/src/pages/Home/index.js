@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchCharacters } from "../../redux/charactersSlice";
 import Masonry from "react-masonry-css";
 import "./styles.css";
+
 import Loading from "../../components/Loading";
 import Error from "../../components/Error";
 import { Link } from "react-router-dom";

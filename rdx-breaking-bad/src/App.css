@@ -135,7 +135,7 @@ hr {
 .quoteContainer {
   display: flex;
   flex-direction: column;
-  max-width: 800px;
+  width: 100%;
   line-height: 1.5;
 }
 

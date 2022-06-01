@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import { useNavigate, useParams,Navigate  } from "react-router-dom";
 import Loading from "../../components/Loading";
+import "../../App.css"
 
 
 function QuoteDetail() {
@@ -23,8 +24,7 @@ function QuoteDetail() {
         <div className="quoteContainer">
           
           <div className="singleQuote">
-            <h3>Id:</h3>
-            <p>{quote.quote_id}</p>
+            
             <h3>Quote:</h3>
             <p>{quote.quote}</p>
             <h3>Author:</h3>            
