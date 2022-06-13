@@ -11,11 +11,11 @@ function List() {
 
 
   return (
-    <div>
+    <ul className="list">
         {
             contacts.map(contact => (<Item key={contact.id} item={contact}/>) )
         }
-    </div>
+    </ul>
   )
 }
 
