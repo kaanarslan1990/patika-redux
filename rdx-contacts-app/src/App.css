@@ -62,7 +62,7 @@ li {
 .deleteBtn {
   width: 18px;
   height: 20px;  
-  padding:auto;
+  padding:5px;
   background-color:red;
   color: white;
   text-align: center;
@@ -80,4 +80,10 @@ li {
 .deleteAllBtn:hover {
   text-decoration: underline;
   color:red;
+}
+
+.edit span {
+  margin-left: 10px;
+  font-size: 12px;
+  cursor: pointer;
 }
